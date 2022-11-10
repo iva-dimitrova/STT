@@ -18,5 +18,5 @@ python -m pip install -U pip
 python -m pip install stt
 
 #Use the command below to test your inference
-stt --model model.tflite --scorer huge-vocabulary.scorer --audio my_audio_file.wav
+stt --model model.tflite --scorer huge-vocabulary.scorer --audio bye_world.wav
 
