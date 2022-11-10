@@ -1,3 +1,5 @@
+With this code, you will use a pretrained model to transform an audio file into texte. 
+
 # Create a virtual environment
 $ python3 -m venv venv-stt
 $ source venv-stt/bin/activate
