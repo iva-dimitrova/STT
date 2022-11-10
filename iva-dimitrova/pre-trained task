@@ -1,0 +1,21 @@
+# Create a virtual environment
+$ python3 -m venv venv-stt
+$ source venv-stt/bin/activate
+
+# Install STT model manager
+$ python -m pip install -U pip
+$ python -m pip install coqui-stt-model-manager
+
+# Use the following website to download an English STT model: https://coqui.ai/models 
+
+#Create the virtual environemnt 
+$ python3 -m venv $HOME/coqui-stt-venv/
+
+#Activate your virtual environment 
+$ source $HOME/coqui-stt-venv/bin/activate
+
+#Use pip to install STT
+(coqui-stt-venv)$ python -m pip install -U pip && python -m pip install stt
+
+#Input a wav. file into the same directoty as your model and run the following line to get the text associated with the audio file
+(coqui-stt-venv)$ stt --model model.tflite --scorer huge-vocabulary.scorer --audio my_audio_file.wav
