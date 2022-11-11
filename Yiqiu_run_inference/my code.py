@@ -20,3 +20,4 @@ python -m pip install stt
 #Use the command below to test your inference
 stt --model model.tflite --scorer huge-vocabulary.scorer --audio bye_world.wav
 
+ 
